@@ -15,6 +15,7 @@
       <Path>Library/PackageCache/com.unity.mathematics@1.1.0</Path>
       <Path>Library/PackageCache/com.unity.mobile.android-logcat@1.2.1</Path>
       <Path>Library/PackageCache/com.unity.multiplayer-hlapi@1.0.6</Path>
+      <Path>Library/PackageCache/com.unity.multiplayer-hlapi@1.0.8</Path>
       <Path>Library/PackageCache/com.unity.purchasing@2.2.2</Path>
       <Path>Library/PackageCache/com.unity.render-pipelines.core@10.3.2</Path>
       <Path>Library/PackageCache/com.unity.render-pipelines.core@10.4.0</Path>
@@ -28,11 +29,13 @@
       <Path>Library/PackageCache/com.unity.textmeshpro@3.0.4</Path>
       <Path>Library/PackageCache/com.unity.timeline@1.4.7</Path>
       <Path>Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4</Path>
+      <Path>Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7</Path>
       <Path>Library/PackageCache/nuget.mono-cecil@0.1.6-preview</Path>
       <Path>Packages</Path>
       <Path>ProjectSettings</Path>
     </explicitIncludes>
     <explicitExcludes>
+      <Path>.git</Path>
       <Path>.idea</Path>
       <Path>Library</Path>
       <Path>Logs</Path>

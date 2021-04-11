@@ -9456,6 +9456,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50612b3b5f16741069b966db9b6d8bb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  duration: 10
+  icon: {fileID: 21300000, guid: 05c08d2d951f33243b9b36a3d6b46f29, type: 3}
+  activatedSound: {fileID: 8300000, guid: 1d285dd80fd9c40a8bb0d175021c8f79, type: 3}
+  ActivatedParticleReference:
+    m_AssetGUID: 8f86b84b72e624cd28ce637e170adc9b
+    m_SubObjectName: 
+    m_SubObjectType: 
+  canBeSpawned: 1
 --- !u!114 &3073559698099625394
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ public class Invincibility : Consumable
 {
     public override string GetConsumableName()
     {
-        return "Invincible";
+        return "Invencible";
     }
 
     public override ConsumableType GetConsumableType()

@@ -9,7 +9,7 @@ public class ExtraLife : Consumable
 
     public override string GetConsumableName()
     {
-        return "Life";
+        return "Vida";
     }
 
     public override ConsumableType GetConsumableType()

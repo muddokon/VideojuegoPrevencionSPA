@@ -2,17 +2,37 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Droga : MonoBehaviour
+public class Droga : Consumable
 {
-    // Start is called before the first frame update
-    void Start()
+    public override string GetConsumableName()
     {
-        
+        return "Droga";
     }
 
-    // Update is called once per frame
-    void Update()
+    public override ConsumableType GetConsumableType()
     {
-        
+        return ConsumableType.DRUG;
+    }
+
+    public override int GetPrice()
+    {
+        return 20;
+    }
+
+    public override int GetPremiumCost()
+    {
+        return 2;
+    }
+    
+    public override IEnumerator Started(CharacterInputController c)
+    {
+        yield return base.Started(c);
+        c.characterCollider.SetInvincible(duration);
+    }
+
+    public override void Ended(CharacterInputController c)
+    {
+        base.Ended(c);
+        c.characterCollider.SetInvincibleExplicit(false);
     }
 }

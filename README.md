@@ -1,23 +1,38 @@
 <h1 align="center">
   <br>
-  <a href="#"><img src="https://arminc.ga/resources/autoexec/arminc_autoexec.png" alt="ArminC AutoExec"></a>
+  <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/1024px-Unity_Technologies_logo.svg.png" alt="Videojuego Pevención"></a>
 </h1>
 
-<h4 align="center">Videojuego para en señar a adolescentes la prevención del consumo de substancias psicoactivas.</h4>
+<h4 align="center">Videojuego para enseñar a adolescentes la prevención del consumo de substancias psicoactivas.</h4>
 
 <p align="center">
-    <a href="https://github.com/ArmynC/ArminC-AutoExec/commits/master">
-    <img src="https://img.shields.io/github/last-commit/ArmynC/ArminC-AutoExec.svg?style=flat-square&logo=github&logoColor=white"
+    <a href="https://github.com/muddokon/VieojuegoPrevencionSPA/commits/master">
+    <img src="https://img.shields.io/github/last-commit/muddokon/VideojuegoPrevencionSPA"
          alt="GitHub last commit">
-    <a href="https://github.com/ArmynC/ArminC-AutoExec/issues">
-    <img src="https://img.shields.io/github/issues-raw/ArmynC/ArminC-AutoExec.svg?style=flat-square&logo=github&logoColor=white"
+    <a href="https://github.com/muddokon/VieojuegoPrevencionSPA/issues">
+    <img src="https://img.shields.io/github/issues-raw/muddokon/VideojuegoPrevencionSPA"
          alt="GitHub issues">
-    <a href="https://github.com/ArmynC/ArminC-AutoExec/pulls">
-    <img src="https://img.shields.io/github/issues-pr-raw/ArmynC/ArminC-AutoExec.svg?style=flat-square&logo=github&logoColor=white"
+    <a href="https://github.com/muddokon/VieojuegoPrevencionSPA/pulls">
+    <img src="https://img.shields.io/github/issues-pr-raw/muddokon/VideojuegoPrevencionSPA"
          alt="GitHub pull requests">
-    <a href="https://twitter.com/intent/tweet?text=Try this CS:GO AutoExec:&url=https%3A%2F%2Fgithub.com%2FArmynC%2FArminC-AutoExec">
+<a href="https://github.com/muddokon/VieojuegoPrevencionSPA/">
+    <img src="https://img.shields.io/github/languages/code-size/muddokon/VideojuegoPrevencionSPA"
+         alt="GitHub pull requests">
+	<a href="https://github.com/muddokon/VieojuegoPrevencionSPA/">
+    <img src="https://img.shields.io/github/repo-size/muddokon/VideojuegoPrevencionSPA"
+         alt="GitHub pull requests">
+    <a href="https://twitter.com/intent/tweet?text=Juega ya este divertido juego:&url=https%3A%2F%2Fgithub.com%2Fmuddokon%2FVieojuegoPrevencionSPA">
     <img src="https://img.shields.io/twitter/url/https/github.com/ArmynC/ArminC-AutoExec.svg?style=flat-square&logo=twitter"
          alt="GitHub tweet">
+<a href="#">
+    <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"
+         alt="Awesome project">
+<a href=https://unity3d.com">
+    <img src="https://img.shields.io/badge/unity-2020.3.x%20LTS-lightgrey"
+         alt="Unity version">
+<a href=https://unity3d.com">
+    <img src="https://img.shields.io/badge/Platform-web%20%7C%20android%20%7C%20windows%20%7C%20mac-orange"
+         alt="Platforms">
 </p>
       
 <p align="center">
@@ -32,7 +47,7 @@
 
 ---
 
-## About
+## Acerca de
 
 <table>
 <tr>
@@ -53,7 +68,7 @@ It comes **filled** with **optimizations** that make use of the **all network ca
 </tr>
 </table>
 
-## Installation
+## Instalación
 
 ##### Downloading and installing steps:
 * **[Download](https://github.com/ArmynC/ArminC-AutoExec/archive/master.zip)** the latest version of the config.
@@ -76,21 +91,8 @@ It comes **filled** with **optimizations** that make use of the **all network ca
 * All the SteamIDs versions will be shown. You need **SteamID3**.
   * The format: `[X:Y:ZZZZZZZZ]` - where your *install path id* is the whole `Z` code.
 
-## Updating
 
-When a **new version** is out, you have **two methods** to _update_:
-
-##### 1. You have edited the config based on your preference:
-* Check the new [commits](https://github.com/ArmynC/ArminC-AutoExec/commits/master) and **update** the config **manually** by relying on the _commits_.
-
-##### 2. You haven't edited the config (or at least not so much):
-* **Delete everything** (or **replace the files** when it asks).
-* **Redo** the [installation](https://github.com/ArmynC/ArminC-AutoExec#installation) steps.
-* _After setup_, **change your preference** settings back (if it is the case).
-
-This _config_ is **updated** (at a random time), so make sure you **come back** here to **check** for **updates**.
-
-## Features
+## Características
 
 |                            | 🔰 ArminC AutoExec  | ◾ Other Configs |
 | -------------------------- | :----------------: | :-------------: |
@@ -106,32 +108,19 @@ This _config_ is **updated** (at a random time), so make sure you **come back** 
 | New commands/values        |         ✔️         |        ❌        |
 | No old command leftovers   |         ✔️         |        ❌        |
 
-## Symbols
 
-      *: Multiple commands under a category.
-     >>: Official description.
-	<->: Analyze;
-    <i>: Informal;
-    <!>: Important;
 
-## Binds
-![ArminC AutoExec Binds](https://raw.githubusercontent.com/ArmynC/ArminC-Keyboard-Layout/master/image/arminc_autoexec_binds.png)
-
-## Wiki
-
-Do you **need some help**? Check the _articles_ from the [wiki](https://github.com/ArmynC/ArminC-AutoExec/wiki/).
-
-## Contributing
+## Contribución
 
 Got **something interesting** you'd like to **share**? Learn about [contributing](https://github.com/ArmynC/ArminC-AutoExec/blob/master/docs/CONTRIBUTING.md).
 
-## Credits
+## Créditos
 
 | [![ArminC](http://www.gamerconfig.eu/files/avatars/thumbnail_arminc.png)](https://linkedin.com/in/arminc) 	| [![Community](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcnTCrjKmRCJDwebeZdr5iVQ_9QFHwtLEJsQ&usqp=CAU)](https://steamcommunity.com/)		|
 |:---------------------------------------------------------------------------------------------------------:	|:------------------------------------------------------------------------------------------------------------------------------------------------:		|
 |                                            **Armin Chanchian**                                            	|                                                           **The entire community**                         			                          	    |
 
-## Support
+## Soporte
 
 Reach out to me at one of the following places:
 
@@ -139,8 +128,8 @@ Reach out to me at one of the following places:
 - Steam Profile at **[ArminC](https://steamcommunity.com/id/arminc/)**
 - E-Mail: **arminandrey@gmail.com**
 
-## License
+## Licencia
 
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg?style=flat-square)](https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3))
+[![Licencia: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://es.wikipedia.org/wiki/Licencia_MIT)
 
-- Copyright © [ArminC](https://arminc.ga "ArminC Directory Database").
+- Copyright © [Sebastián Gómez Rosas](https://applicate.co).

@@ -27,12 +27,12 @@ public class Licor : Consumable
     public override IEnumerator Started(CharacterInputController c)
     {
         yield return base.Started(c);
-        c.characterCollider.SetInvincible(duration);
+        Debug.Log("Trago recogido!");
     }
 
     public override void Ended(CharacterInputController c)
     {
         base.Ended(c);
-        c.characterCollider.SetInvincibleExplicit(false);
+        Debug.Log("Trago terminado!");
     }
 }

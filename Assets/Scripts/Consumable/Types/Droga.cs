@@ -27,12 +27,12 @@ public class Droga : Consumable
     public override IEnumerator Started(CharacterInputController c)
     {
         yield return base.Started(c);
-        c.characterCollider.SetInvincible(duration);
+        Debug.Log("Droga recogida!");
     }
 
     public override void Ended(CharacterInputController c)
     {
         base.Ended(c);
-        c.characterCollider.SetInvincibleExplicit(false);
+        Debug.Log("Droga Terminada!");
     }
 }

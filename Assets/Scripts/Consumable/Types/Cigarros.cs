@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Cigarros : Consumable
 {
+    // private 
     public override string GetConsumableName()
     {
         return "Cigarros";
@@ -27,12 +28,14 @@ public class Cigarros : Consumable
     public override IEnumerator Started(CharacterInputController c)
     {
         yield return base.Started(c);
-        c.characterCollider.SetInvincible(duration);
+        Debug.Log("Cigarros recogidos!");
+        c.trackManager.maxSpeed = 50f;
     }
 
     public override void Ended(CharacterInputController c)
     {
         base.Ended(c);
-        c.characterCollider.SetInvincibleExplicit(false);
+        Debug.Log("Cigarros terminados!");
+        c.trackManager.maxSpeed = 30f;
     }
 }

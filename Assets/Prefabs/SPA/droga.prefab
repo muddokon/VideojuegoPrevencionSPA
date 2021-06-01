@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3838174055164704365}
   - component: {fileID: 1770405450241000762}
   - component: {fileID: 2889542789905201579}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PremiuimCurrencyParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4648,7 +4648,7 @@ GameObject:
   - component: {fileID: 8011926891083608866}
   - component: {fileID: 4947499146876579295}
   - component: {fileID: 4023838383385761611}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PremiuimCurrencyParticles (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9359,7 +9359,7 @@ GameObject:
   - component: {fileID: 8296172667771745684}
   - component: {fileID: 2682741516517363828}
   - component: {fileID: 3073559698099625394}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: droga
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9487,6 +9487,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ab1112643ee572748b01dede71158272, type: 3}
       propertyPath: m_Name
       value: FX_Smoke
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ab1112643ee572748b01dede71158272, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ab1112643ee572748b01dede71158272, type: 3}
       propertyPath: m_IsActive

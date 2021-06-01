@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7318671244523946536}
   - component: {fileID: 7318671244520522248}
   - component: {fileID: 7318671244521521352}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 3157130437651487750}
   - component: {fileID: 3157130437651487751}
   - component: {fileID: 8809704010454967452}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: licor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 7318671244523946540}
   - component: {fileID: 7318671244520522252}
   - component: {fileID: 7318671244521521356}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Wrapper
   m_TagString: Untagged
   m_Icon: {fileID: 0}

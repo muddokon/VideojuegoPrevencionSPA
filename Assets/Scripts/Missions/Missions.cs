@@ -87,7 +87,7 @@ public class SingleRunMission : MissionBase
 
 	public override string GetMissionDesc()
     {
-        return "Run " + ((int)max) + "m in a single run";
+        return "Corre " + ((int)max) + "m de una sola vez";
     }
 
     public override MissionType GetMissionType()
@@ -122,7 +122,7 @@ public class PickupMission : MissionBase
 
     public override string GetMissionDesc()
     {
-        return "Pickup " + max + " fishbones";
+        return "Recoge " + max + " monedas";
     }
 
     public override MissionType GetMissionType()
@@ -164,7 +164,7 @@ public class BarrierJumpMission : MissionBase
 
     public override string GetMissionDesc()
     {
-        return "Jump over " + ((int)max) + " barriers";
+        return "Salta sobre " + ((int)max) + " barreras";
     }
 
     public override MissionType GetMissionType()
@@ -221,7 +221,7 @@ public class SlidingMission : MissionBase
 
     public override string GetMissionDesc()
     {
-        return "Slide for " + ((int)max) + "m";
+        return "Desliza por " + ((int)max) + "m";
     }
 
     public override MissionType GetMissionType()
@@ -266,7 +266,7 @@ public class MultiplierMission : MissionBase
 
     public override string GetMissionDesc()
     {
-        return "Reach a x" + ((int)max) + " multiplier";
+        return "Alcanza un multiplicador de " + ((int)max) + "x";
     }
 
     public override MissionType GetMissionType()

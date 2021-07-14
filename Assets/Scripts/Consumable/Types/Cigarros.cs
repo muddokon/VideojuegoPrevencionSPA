@@ -29,7 +29,7 @@ public class Cigarros : Consumable
     {
         yield return base.Started(c);
         Debug.Log("Cigarros recogidos!");
-        c.trackManager.maxSpeed = 50f;
+        c.trackManager.maxSpeed = 100f;
     }
 
     public override void Ended(CharacterInputController c)

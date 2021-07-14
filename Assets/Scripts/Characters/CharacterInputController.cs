@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.AddressableAssets;
 
@@ -44,6 +45,11 @@ public class CharacterInputController : MonoBehaviour
 
     [HideInInspector] public int currentTutorialLevel;
     [HideInInspector] public bool tutorialWaitingForValidation;
+    
+    /*Sección SPA para efectos de drogas*/
+    [HideInInspector] public bool tieneCigarros;
+    [HideInInspector] public bool tieneDroga;
+    [HideInInspector] public bool tieneLicor;
 
     protected int m_Coins;
     protected int m_Premium;
@@ -183,20 +189,62 @@ public class CharacterInputController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftArrow) && TutorialMoveCheck(0))
         {
-            ChangeLane(-1);
+	        if(tieneDroga)
+		        ChangeLane(1);
+	        else
+	        {
+		        if (tieneLicor)
+			        StartCoroutine(ReaccionarTarde(1));
+		        else
+		        {
+			        ChangeLane(-1);
+		        }
+	        }
         }
         else if(Input.GetKeyDown(KeyCode.RightArrow) && TutorialMoveCheck(0))
         {
-            ChangeLane(1);
+	        if(tieneDroga)
+		        ChangeLane(-1);
+	        else
+	        {
+		        if (tieneLicor)
+			        StartCoroutine(ReaccionarTarde(2));
+		        else
+		        {
+			        ChangeLane(1);
+		        }
+	        }
         }
         else if(Input.GetKeyDown(KeyCode.UpArrow) && TutorialMoveCheck(1))
         {
-            Jump();
+	        if(tieneDroga)
+		        Slide();
+	        else
+	        {
+		        if (tieneLicor)
+			        StartCoroutine(ReaccionarTarde(3));
+		        else
+		        {
+			        Jump();
+		        }
+	        }
         }
 		else if (Input.GetKeyDown(KeyCode.DownArrow) && TutorialMoveCheck(2))
 		{
-			if(!m_Sliding)
-				Slide();
+			if (tieneDroga)
+			{
+				Jump();
+			}
+			else
+			{
+				if (tieneLicor)
+					StartCoroutine(ReaccionarTarde(4));
+				else
+				{
+					if(!m_Sliding)
+						Slide();
+				}
+			}
 		}
 #else
         // Use touch input on mobile
@@ -423,5 +471,30 @@ public class CharacterInputController : MonoBehaviour
 
         m_ActiveConsumables.Add(c);
         StartCoroutine(c.Started(this));
+    }
+    
+    /*Efecto retrasado de licor*/
+    private IEnumerator ReaccionarTarde(int interaccion)
+    {
+	    yield return new WaitForSeconds(1f);
+	    switch (interaccion)
+	    {
+		    case 1:
+			    ChangeLane(-1);
+			    break;
+		    case 2:
+			    ChangeLane(1);
+			    break;
+		    case 3:
+			    Jump();
+			    break;
+		    case 4:
+			    if(!m_Sliding)
+				    Slide();
+			    break;
+		    default:
+			    Debug.LogWarning("No hay accion posible en el licor ojo...");
+			    break;
+	    }
     }
 }

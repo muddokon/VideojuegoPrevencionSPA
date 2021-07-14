@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Este tipo de substancia te hace ir rápido y sin control.
+/// </summary>
 public class Cigarros : Consumable
 {
     // private 
@@ -30,6 +33,7 @@ public class Cigarros : Consumable
         yield return base.Started(c);
         Debug.Log("Cigarros recogidos!");
         c.trackManager.maxSpeed = 100f;
+        c.tieneCigarros = true;
     }
 
     public override void Ended(CharacterInputController c)
@@ -37,5 +41,6 @@ public class Cigarros : Consumable
         base.Ended(c);
         Debug.Log("Cigarros terminados!");
         c.trackManager.maxSpeed = 30f;
+        c.tieneCigarros = false;
     }
 }

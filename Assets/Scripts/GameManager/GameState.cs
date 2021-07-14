@@ -55,6 +55,7 @@ public class GameState : AState
     public GameObject upSlideTuto;
     public GameObject downSlideTuto;
     public GameObject finishTuto;
+    public GameObject drugsTuto;
 
     public Modifier currentModifier = new Modifier();
 
@@ -545,7 +546,7 @@ public class GameState : AState
                 m_NextValidSegment = null;
                 trackManager.ChangeZone();
 
-                tutorialValidatedObstacles.text = "Superado!";
+                tutorialValidatedObstacles.text = "Bien hecho!";
 
                 if (trackManager.currentZone == 0)
                 {//we looped, mean we finished the tutorial.
@@ -581,6 +582,10 @@ public class GameState : AState
                 downSlideTuto.SetActive(value);
                 trackManager.characterController.tutorialWaitingForValidation = value;
                 break;
+            /*case 3:
+                drugsTuto.SetActive(value);
+                trackManager.characterController.tutorialWaitingForValidation = value;
+                break;*/
             case 3:
                 finishTuto.SetActive(value);
                 trackManager.characterController.StopSliding();

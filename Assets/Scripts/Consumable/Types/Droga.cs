@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Este tipo de substancia te hace tener controles invertidos.
+/// </summary>
 public class Droga : Consumable
 {
     public override string GetConsumableName()
@@ -28,11 +31,13 @@ public class Droga : Consumable
     {
         yield return base.Started(c);
         Debug.Log("Droga recogida!");
+        c.tieneDroga = true;
     }
 
     public override void Ended(CharacterInputController c)
     {
         base.Ended(c);
         Debug.Log("Droga Terminada!");
+        c.tieneDroga = false;
     }
 }

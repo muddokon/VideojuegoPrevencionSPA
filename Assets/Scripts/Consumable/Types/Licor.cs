@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Este tipo de substancia te hace reaccionar tarde.
+/// </summary>
 public class Licor : Consumable
 {
     public override string GetConsumableName()
@@ -28,11 +31,13 @@ public class Licor : Consumable
     {
         yield return base.Started(c);
         Debug.Log("Trago recogido!");
+        c.tieneLicor = true;
     }
 
     public override void Ended(CharacterInputController c)
     {
         base.Ended(c);
         Debug.Log("Trago terminado!");
+        c.tieneLicor = false;
     }
 }

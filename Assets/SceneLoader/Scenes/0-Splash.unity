@@ -276,15 +276,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11469772, guid: a75ac80c4e08acc479d51714706e0058, type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11469772, guid: a75ac80c4e08acc479d51714706e0058, type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0.40000004
       objectReference: {fileID: 0}
     - target: {fileID: 11469772, guid: a75ac80c4e08acc479d51714706e0058, type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0.85098046
       objectReference: {fileID: 0}
     - target: {fileID: 11490498, guid: a75ac80c4e08acc479d51714706e0058, type: 3}
       propertyPath: animID
@@ -312,7 +312,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11490498, guid: a75ac80c4e08acc479d51714706e0058, type: 3}
       propertyPath: titlestring
-      value: Presenta
+      value: Presentan
       objectReference: {fileID: 0}
     - target: {fileID: 11490498, guid: a75ac80c4e08acc479d51714706e0058, type: 3}
       propertyPath: delayLoading

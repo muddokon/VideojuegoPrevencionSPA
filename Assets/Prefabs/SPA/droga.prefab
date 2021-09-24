@@ -9409,7 +9409,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4315839532573698590, guid: ec8e1693702db0a4a97008578700f2e2, type: 3}
+  - {fileID: 2100000, guid: 1cebe9bbfb0a2d24a9a772b1f9bb0641, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9463,6 +9463,7 @@ MonoBehaviour:
     m_AssetGUID: 8f86b84b72e624cd28ce637e170adc9b
     m_SubObjectName: 
     m_SubObjectType: 
+    m_EditorAssetChanged: 0
   canBeSpawned: 1
 --- !u!114 &3073559698099625394
 MonoBehaviour:
@@ -9578,7 +9579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: ab1112643ee572748b01dede71158272, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: ab1112643ee572748b01dede71158272, type: 3}
       propertyPath: InitialModule.startLifetime.scalar

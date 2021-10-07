@@ -1120,7 +1120,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 1023.484}
+  m_SizeDelta: {x: 0, y: 1079.06}
   m_Pivot: {x: 0, y: 1}
 --- !u!4 &77069732 stripped
 Transform:
@@ -1403,7 +1403,7 @@ RectTransform:
   m_Father: {fileID: 1841466551}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.15875566}
+  m_AnchorMin: {x: 0, y: 0.20208323}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -8380,7 +8380,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Principal
+  m_Text: Total
 --- !u!222 &788409696
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22683,8 +22683,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 80336925}
   m_HandleRect: {fileID: 80336924}
   m_Direction: 2
-  m_Value: 1.0000007
-  m_Size: 0.84124434
+  m_Value: 1.0000006
+  m_Size: 0.79791677
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

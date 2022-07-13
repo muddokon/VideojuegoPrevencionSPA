@@ -1,9 +1,9 @@
 <h1 align="center">
   <br>
-  <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/1024px-Unity_Technologies_logo.svg.png" alt="Videojuego Pevención"></a>
+  <img src="https://img.itch.zone/aW1nLzY1Nzk5NTgucG5n/original/6Q7QzM.png" alt="Videojuego Pevención SPA">
 </h1>
 
-<h4 align="center">Videojuego para enseñar a adolescentes la prevención del consumo de substancias psicoactivas.</h4>
+<h4 align="center">Videojuego para enseñar a niños, niñas y adolescentes cómo prevenir el consumo de substancias psicoactivas.</h4>
 
 <p align="center">
     <a href="https://github.com/muddokon/VieojuegoPrevencionSPA/commits/master">
@@ -48,7 +48,8 @@
 ---
 
 ## Acerca de
-
+<br>
+  <img src="https://marcas-logos.net/wp-content/uploads/2020/11/Unity-logo-1.jpg" width="50%" alt="Unity logo">
 <table>
 <tr>
 <td>
@@ -93,6 +94,19 @@ It comes **filled** with **optimizations** that make use of the **all network ca
 
 
 ## Características
+<table align="center">
+	<tr>
+		<td>
+			<img src="https://img.itch.zone/aW1hZ2UvMTEzNDc0MC83MDM1NzMzLnBuZw==/347x500/9Dluw2.png" alt="1">
+		</td>
+		<td>
+			<img src="https://img.itch.zone/aW1hZ2UvMTEzNDc0MC83MDM1NzM0LnBuZw==/347x500/36HkUk.png" alt="2">
+		</td>
+		<td>
+			<img src="https://img.itch.zone/aW1hZ2UvMTEzNDc0MC83MDM1NzM1LnBuZw==/347x500/dGeYMG.png" alt="3">
+		</td>
+	  </tr>
+  </table>
 
 |                            | 🔰 ArminC AutoExec  | ◾ Other Configs |
 | -------------------------- | :----------------: | :-------------: |
@@ -132,4 +146,4 @@ Reach out to me at one of the following places:
 
 [![Licencia: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://es.wikipedia.org/wiki/Licencia_MIT)
 
-- Copyright © [Sebastián Gómez Rosas](https://applicate.co).
+- Copyright © [Sebastián Gómez Rosas](https://linkedin.com).

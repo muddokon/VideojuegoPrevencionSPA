@@ -54,15 +54,15 @@
 <tr>
 <td>
   
-**Pablito Pedas** es un **videojuego para móviles y web2** que busca impactar positivamente el proceso de formación de niñas, niños y adolescentes **para que eviten el consumo de substancias psicoactivas (SPA)** y sus **efectos nocivos para la salud**,mediante una experiencia **divertida** ya a la vez de **impacto**.
+**Pablito Pedas** es un **videojuego para móviles y web2** que busca impactar positivamente el proceso de formación de niñas, niños y adolescentes **para que eviten el consumo de substancias psicoactivas (SPA)** y sus **efectos nocivos para la salud**,mediante una experiencia **divertida** y que a su vez deje un **mensaje**.
 
-It comes **filled** with **optimizations** that make use of the **all network capacity** and **game advantages**, overall **improving the gameplay** for a wide variety of _computers and players_.
+Por medio de una mecánica tipo **Runner** con algunas **adiciones** que aprovechan **la predisposición de los chicos** para **jugar y entretenerse**, se busca generar una **recordación** acerca del consumo de las principales drogas y substancias, y sus consecuencias.
 
-**Each and one** of the **commands** are **finely-tuned**, _enabling all game's capacity_ (compared to default settings), **helping you** through the matchmaking.
+El juego incluye: **Alcohol** en forma de una botella de vino, **Droga** en forma de un cigarrillo o _porro_ de marihuana y **Tabaco** en forma de una caja de cigarrillos. 
 
-![ArminC AutoExec Code](https://arminc.ga/resources/autoexec/arminc_autoexec_code.png)
+![Visitar proyecto descargable en Itch](https://cdn.arstechnica.net/wp-content/uploads/2021/05/itchio-logo-black.png)
 <p align="right">
-<sub>(Preview)</sub>
+<sub>(Introducción)</sub>
 </p>
 
 </td>

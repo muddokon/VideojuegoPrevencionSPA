@@ -108,9 +108,9 @@ El juego incluye: **Alcohol** en forma de una botella de vino, **Droga** en form
 	  </tr>
   </table>
 
-|                            | 🔰 ArminC AutoExec  | ◾ Other Configs |
+|                            | 🔰 Listo           |   ◾ Por Hacer   |
 | -------------------------- | :----------------: | :-------------: |
-| Optimized values           |         ✔️         |        ❌        |
+| Personaje Pablito           |         ✔️         |        ❌        |
 | Useful scripts             |         ✔️         |        ❌        |
 | Documented commands        |         ✔️         |        ❌        |
 | Enabled in-game advantages |         ✔️         |        ❌        |

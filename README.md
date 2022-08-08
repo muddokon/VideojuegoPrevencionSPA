@@ -110,23 +110,23 @@ El juego incluye: **Alcohol** en forma de una botella de vino, **Droga** en form
 
 |                            | 🔰 Listo           |   ◾ Por Hacer   |
 | -------------------------- | :----------------: | :-------------: |
-| Personaje Pablito           |         ✔️         |        ❌        |
-| Useful scripts             |         ✔️         |        ❌        |
-| Documented commands        |         ✔️         |        ❌        |
-| Enabled in-game advantages |         ✔️         |        ❌        |
-| No misconcepted commands   |         ✔️         |        ❌        |
-| Professional info sources  |         ✔️         |        ❌        |
-| Clean sheet/template       |         ✔️         |        ❌        |
-| Easy to customize          |         ✔️         |        ❌        |
-| Categorized by functions   |         ✔️         |        ❌        |
-| New commands/values        |         ✔️         |        ❌        |
-| No old command leftovers   |         ✔️         |        ❌        |
+| Personaje Pablito          |         ✔️         |        ❌        |
+| Personajes adicionales     |         ❌         |       ✔️         |
+| Escenario ciudad Fblanca   |         ✔️         |        ❌        |
+| Escenarios alternativos    |         ❌         |        ✔️        |
+| Música original Unity      |         ✔️         |        ❌        |
+| Piezas musicales           |         ❌         |        ✔️        |
+| Substancias SPA comunes    |         ✔️         |        ❌        |
+| Pruebas con chicos         |         ✔️         |        ❌        |
+| Pruebas con docentes       |         ❌         |        ✔️        |
+| Documentación extensiva    |         ❌         |        ✔️        |
+| Validación con público     |         ❌         |        ✔️        |
 
 
 
 ## Contribución
 
-Got **something interesting** you'd like to **share**? Learn about [contributing](https://github.com/ArmynC/ArminC-AutoExec/blob/master/docs/CONTRIBUTING.md).
+Tienes **algo interesante** que quisieras **proponerme**? Puedes escribirme (infor en mi perfil) o si sabes de gamedev puedes realizar en este repositorio una [contribución](https://github.com/ArmynC/ArminC-AutoExec/blob/master/docs/CONTRIBUTING.md).
 
 ## Créditos
 
